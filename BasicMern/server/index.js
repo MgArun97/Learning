@@ -7,7 +7,7 @@ const cors = require("cors");
 app.use(express.json());
 app.use(cors());
 mongoose.connect(
-    "mongodb+srv://mgarun007:Mongopassword123@cluster0.9bz4cp6.mongodb.net/?retryWrites=true&w=majority"
+    "mongodb+srv://mgarun007:<password>@cluster0.9bz4cp6.mongodb.net/?retryWrites=true&w=majority"
 )
 
 app.get("/getUsers",(req,res)=>{
